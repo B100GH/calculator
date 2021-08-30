@@ -6,7 +6,8 @@ if input('y or n -- ') == 'y':
     1 - addition
     2 - subtraction
     3 - multiplication
-    4 - division''')
+    4 - division
+    5 - Conversion''')
     
     x = input()
 
@@ -38,4 +39,29 @@ if input('y or n -- ') == 'y':
             print('----------- /')
             print(g / h)
 
+    if(x) == '5' :
+        print('''
+- - - - - - Menu - - - - - -
+        1 - INCHES TO CM
+        2 - Miles
+        3 - no dont click me
+            ''')
+        y = input()
 
+        if(y) == '1':
+                print('''- - - Menu - - -
+                        1 - in to cm
+                        2 - cm to in
+                        ''')
+                z = input()
+                
+                if(z) == '1':
+                                        a = float(input('in -- '))
+                                        print(a * 2.54)
+
+                if(z) == '2':
+                                        a = float(input('cm -- '))
+                                        print(a / 2.54)
+
+        if(y) == '3':
+                                print('yo mama')
