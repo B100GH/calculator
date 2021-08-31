@@ -42,26 +42,29 @@ if input('y or n -- ') == 'y':
     if(x) == '5' :
         print('''
 - - - - - - Menu - - - - - -
-        1 - INCHES TO CM
-        2 - Miles
-        3 - no dont click me
+    1 - INCHES TO CM
+    2 - Under Development
+    3 - Under Development
             ''')
         y = input()
 
         if(y) == '1':
                 print('''- - - Menu - - -
-                        1 - in to cm
-                        2 - cm to in
+  1 - in to cm
+  2 - cm to in
                         ''')
                 z = input()
                 
                 if(z) == '1':
-                                        a = float(input('in -- '))
-                                        print(a * 2.54)
+                        a = float(input('in -- '))
+                        print(a * 2.54)
 
                 if(z) == '2':
-                                        a = float(input('cm -- '))
-                                        print(a / 2.54)
+                        a = float(input('cm -- '))
+                        print(a / 2.54)
+
+        if(y) == '2':
+                print('Under Development')
 
         if(y) == '3':
-                                print('yo mama')
+                print('Under Development')
